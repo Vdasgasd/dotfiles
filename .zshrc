@@ -78,8 +78,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-completions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete you-should-use)
-#zsh-autosuggestions
+# plugins=(git zsh-completions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete you-should-use)
+  plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -109,7 +109,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias nrd="npm run dev"
-HISTFILE=~/.histfile
+alias www="cd c:/laragon/www"
+HISTFILE=~/.zsh_history_file/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 # End of lines configured by zsh-newuser-install
