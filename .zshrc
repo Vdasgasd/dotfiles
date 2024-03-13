@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias nrd="npm run dev"
 alias www="cd c:/laragon/www"
+alias ce="cd e:/Code"
 HISTFILE=~/.zsh_history_file/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
